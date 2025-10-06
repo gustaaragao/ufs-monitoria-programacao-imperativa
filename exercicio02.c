@@ -5,9 +5,8 @@ int main() {
     char nome[100];
 
     // Questão 1
-    printf("Digite o nome e o último nome: ");
-    fgets(nome, 100, stdin);
-    nome[strcspn(nome, "\n")] = '\0';
+    printf("Digite o primeiro nome: ");
+    scanf("%s", nome);
     printf("Nome = %s\n", nome);
     // Questão 2
     int tamanho_nome = strlen(nome);
@@ -18,12 +17,12 @@ int main() {
     strcat(mensagem, "!");
     printf("Mensagem: %s\n", mensagem);
     // Questão 4
-    if (strcmp(nome, "Gustavo Aragão") == 0) {
-        printf("nome == 'Gustavo Aragão'\n");
-    } else if (strcmp(nome, "Gustavo Aragão") < 0) {
-        printf("nome < 'Gustavo Aragão'\n");
-    } else if (strcmp(nome, "Gustavo Aragão") > 0) {
-        printf("nome > 'Gustavo Aragão'\n");
+    if (strcmp(nome, "Gustavo") == 0) {
+        printf("nome == 'Gustavo'\n");
+    } else if (strcmp(nome, "Gustavo") < 0) {
+        printf("nome < 'Gustavo'\n");
+    } else if (strcmp(nome, "Gustavo") > 0) {
+        printf("nome > 'Gustavo'\n");
     }
     return 0;
 }
