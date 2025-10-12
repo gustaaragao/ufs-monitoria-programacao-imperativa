@@ -1,9 +1,7 @@
 #include <stdio.h>
 
-#define min(a, b) a <= b ? a : b
-#define max(a, b) a >= b ? a : b
-
-const int INF = 0x3f3f3f3f;
+#define min(a, b) a < b ? a : b
+#define max(a, b) a > b ? a : b
 
 int main() {
 	int v[10];
@@ -26,8 +24,8 @@ int main() {
 	printf("%d\n", id);
 	
 	// Encontrar o menor e maior valor
-	int maior = -INF, menor = INF;
-	for (int i = 0; i < 10; i++) {
+	int maior = v[0], menor = v[0];
+	for (int i = 1; i < 10; i++) {
 		maior = max(maior, v[i]);
 		menor = min(menor, v[i]);
 	}
