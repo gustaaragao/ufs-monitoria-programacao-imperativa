@@ -1,5 +1,11 @@
-# Mini-Curso de C - Aula 05: Vetores e Strings
+# UFS - Monitoria de Programação Imperativa (2025.1 e 2025.2)
 
-Este repositório contém **soluções de desafios e exercícios** elaborados para a **Aula 05** do Mini-Curso de C, cujo tema foi **Vetores e Strings**.  
+Este repositório contém materiais desenvolvidos durante meu período como monitor de **Programação Imperativa** na **Universidade Federal de Sergipe (UFS)** durante o ano de 2025.
 
-O material foi desenvolvido por mim durante meu período como monitor de **Programação Imperativa** para os **calouros de Computação da turma 2025.1** da **Universidade Federal de Sergipe**.  
+## 📂 Estrutura do Repositório
+
+### `mini-curso-c-aula05/`
+Contém o conteúdo preparado para um **Mini-Curso de Introdução a C**, especificamente a **Aula 05** sobre **Vetores e Strings**, ministrado para os calouros de 2025 dos cursos de computação da UFS.
+
+### Outras Pastas
+As demais pastas contêm **soluções de questões do TheHuxley** propostas pelo professor **Felipe de Carvalho Pereira**.
