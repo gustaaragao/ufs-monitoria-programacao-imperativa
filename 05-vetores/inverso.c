@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    int v[1000005];
+    int n; scanf("%d", &n);
+    for (int i = 0; i < n; i++) {
+        scanf("%d", &v[i]);
+    }
+    for (int i = n-1; i >= 0; i--) {
+        printf("%d ", v[i]);
+    } 
+    printf("\n");
+}
