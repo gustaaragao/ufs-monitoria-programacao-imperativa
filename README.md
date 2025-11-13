@@ -11,5 +11,5 @@ Contém o conteúdo preparado para um **Mini Curso de Introdução a C**, especi
 Contém o conteúdo preparado para um **Mini Curso de Programação Orientada a Objetos**, especificamente a **Aula 02** sobre **Encapsulamento**, ministrado para os calouros de 2025 dos cursos de computação da UFS.
 
 
-### Outras Pastas
+### `Outras Pastas`
 As demais pastas contêm **soluções de questões do TheHuxley** propostas pelo professor **Felipe de Carvalho Pereira**.
